@@ -13,3 +13,17 @@ using seaborne
 2.  Best Accuracy  is achieved by Avg Word2Vec Featurization.
 3.  Both kd-tree and brute algorithms of KNN gives comparatively similar results.
 <hr>
+
+**Results :-** 
++--------------+---------+----------------+-------+
+|  Vectorizer  |  Model  | Hyperparameter |  AUC  |
++--------------+---------+----------------+-------+
+|     BOW      |  brute  |       17       | 0.781 |
+|    TFIDF     |  brute  |       37       | 0.854 |
+|   AVG W2V    |  brute  |       31       | 0.873 |
+| Weighted W2V |  brute  |       9        | 0.837 |
+|     BOW      | kd_tree |       27       | 0.787 |
+|    TFIDF     | kd_tree |       37       | 0.854 |
+|   AVG W2V    | kd_tree |       31       | 0.873 |
+| Weighted W2V | kd_tree |       9        | 0.837 |
++--------------+---------+----------------+-------+

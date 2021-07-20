@@ -15,15 +15,15 @@ using seaborne
 <hr>
 
 **Results :-** 
-+--------------+---------+----------------+-------+
-|  Vectorizer  |  Model  | Hyperparameter |  AUC  |
-+--------------+---------+----------------+-------+
-|     BOW      |  brute  |       17       | 0.781 |
-|    TFIDF     |  brute  |       37       | 0.854 |
-|   AVG W2V    |  brute  |       31       | 0.873 |
-| Weighted W2V |  brute  |       9        | 0.837 |
-|     BOW      | kd_tree |       27       | 0.787 |
-|    TFIDF     | kd_tree |       37       | 0.854 |
-|   AVG W2V    | kd_tree |       31       | 0.873 |
-| Weighted W2V | kd_tree |       9        | 0.837 |
-+--------------+---------+----------------+-------+
+
+| Vectorizer    | Algorithm    | Nearest Neighbors | AUC Score |
+| -------------:|-------------:| -----------------:| ---------:|
+| BOW           |  Brute Force |       17          | 0.781     |
+| Tf-iDF        |  Brute Force |       37          | 0.854     |
+| Avg W2V       |  Brute Force |       31          | 0.873     |
+| Weighted W2V  |  Brute Force |       9           | 0.837     |
+|                                                              |
+| BOW           |  Kd - Tree   |       27          | 0.787     |
+| Tf-iDF        |  Kd - Tree   |       37          | 0.854     |
+| Avg W2V       |  Kd - Tree   |       31          | 0.873     |
+| Weighted W2V  |  Kd - Tree   |       9           | 0.837     |

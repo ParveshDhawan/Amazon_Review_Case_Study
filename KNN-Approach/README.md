@@ -16,14 +16,14 @@ using seaborne
 
 **Results :-** 
 
-| Vectorizer    | Algorithm    | Nearest Neighbors | AUC Score |
-| -------------:|-------------:| -----------------:| ---------:|
-| BOW           |  Brute Force |       17          | 0.781     |
-| Tf-iDF        |  Brute Force |       37          | 0.854     |
-| Avg W2V       |  Brute Force |       31          | 0.873     |
-| Weighted W2V  |  Brute Force |       9           | 0.837     |
-|                                                              |
-| BOW           |  Kd - Tree   |       27          | 0.787     |
-| Tf-iDF        |  Kd - Tree   |       37          | 0.854     |
-| Avg W2V       |  Kd - Tree   |       31          | 0.873     |
-| Weighted W2V  |  Kd - Tree   |       9           | 0.837     |
+| Vectorizer    | Algorithm    | Nearest Neighbour | Train AUC | Test AUC |
+| -------------:|-------------:| -----------------:| ---------:| --------:|
+| BOW           |  Brute Force |       49          | 0.833     | 0.792    |
+| Tf-iDF        |  Brute Force |       49          | 0.905     | 0.862    |
+| Avg W2V       |  Brute Force |       49          | 0.906     | 0.872    |
+| Weighted W2V  |  Brute Force |       49          | 0.906     | 0.872    |
+|    ----       |   ----       |      ----         |  ----     |  ----    |
+| BOW           |  Kd - Tree   |       49          | 0.833     | 0.792    |
+| Tf-iDF        |  Kd - Tree   |       49          | 0.905     | 0.862    |
+| Avg W2V       |  Kd - Tree   |       49          | 0.906     | 0.872    |
+| Weighted W2V  |  Kd - Tree   |       49          | 0.906     | 0.872    |
